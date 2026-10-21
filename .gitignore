@@ -1,0 +1,19 @@
+# 原始诊断数据、备份与个人配置保留在本地
+work/
+private/
+logs/
+backups/
+*.log
+*.reg
+*.db
+*.sqlite*
+*.dmp
+*.etl
+.env
+.env.*
+*.local.*
+clash-verge.yaml
+profiles.yaml
+verge.yaml
+Thumbs.db
+Desktop.ini

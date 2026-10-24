@@ -43,12 +43,4 @@
 
 我的理解是：问题出在 ACE 被删之后没有被正确补回，而 ACE 是跟着 WeGame 走的，所以只重装游戏没用，重装 WeGame 再修复才把它装回来了。这是推测，不确定。
 
-## 早期排查记录
-
-在找到有效方法之前，我让 GPT / Codex 做过比较细的系统检查（ACE 驱动、Windows 日志、代理配置等），记录在这里，仅供参考：
-
-- [排查时间线](docs/timeline.md)
-- [诊断发现与证据边界](docs/findings.md)
-- [给 Codex 的只读诊断提示词](prompts/codex-diagnosis.md)
-
 欢迎在 Issues 里分享相同的报错和你的处理结果。
